@@ -1,3 +1,46 @@
+/* THIS IS FOR THE WHOLE BODY */
+
 body {
-  background-color: lightgray;
+  background-color: #DEAB8C;
+}
+
+
+/* THIS IS FOR THE TOP NAVIGATION BAR */
+
+nav {
+  background-color: #FF6950;
+  color: #F2F2F2;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  width: 10vw;
+}
+
+nav li a {
+  color: #F2F2F2;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav li:first-child {
+  width: 60vw;
+}
+
+/* THIS IS FOR THE HEADER */
+
+header {
+  padding-top: 5vh;
+  background: #DEAB8C url("../img/background_hero.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80vh;
 }

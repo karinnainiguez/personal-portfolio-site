@@ -1,0 +1,76 @@
+/* THIS IS FOR THE HEADER */
+
+header {
+  padding-top: 5vh;
+  background: #C1BDB3 url("../img/background_hero.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+header img {
+  border-radius: 50%;
+  margin: 10vw;
+  width: 200px;
+
+}
+
+header h1 {
+  color: #323031;
+  border-radius: 35%;
+  margin: 0 10vw;
+}
+
+header p {
+  color: #323031;
+  font-weight: bold;
+  border-radius: 35%;
+  margin: 0 10vw;
+}
+
+/* Social Media Icons */
+
+.social {
+  list-style-type: none;
+  width: 30vw;
+  padding: 0 5vw 0 60vw;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr)
+
+}
+
+.social li {
+  display: inline-block;
+}
+
+.social li img {
+  max-width: 30px;
+  margin: 0;
+}
+
+
+/* Second picture scroll */
+
+#picture {
+  height: 110vh;
+  background: url("../img/second_image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+/* Main Body Text */
+
+main>section {
+  padding: 5vw;
+}
+
+p {
+  line-height: 2em;
+}

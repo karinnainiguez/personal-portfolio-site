@@ -1,15 +1,15 @@
 /* THIS IS FOR THE WHOLE BODY */
 
 body {
-  background-color: #DEAB8C;
+  background-color: #C1BDB3;
 }
 
 
 /* THIS IS FOR THE TOP NAVIGATION BAR */
 
 nav {
-  background-color: #FF6950;
-  color: #F2F2F2;
+  background-color: #5F3B6B;
+  color: #C1BDB3;
   position: fixed;
   top: 0;
   width: 100vw;
@@ -25,22 +25,86 @@ nav li {
 }
 
 nav li a {
-  color: #F2F2F2;
+  color: #C1BDB3;
   font-weight: bold;
   text-decoration: none;
+  padding: 1vw;
 }
 
 nav li:first-child {
   width: 60vw;
 }
 
+nav li a:hover {
+  color: #5F3B6B;
+  background-color: #C1BDB3;
+}
+
 /* THIS IS FOR THE HEADER */
 
 header {
   padding-top: 5vh;
-  background: #DEAB8C url("../img/background_hero.jpg");
+  background: #C1BDB3 url("../img/background_hero.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+header img {
+  border-radius: 50%;
+  margin: 10vw;
+
+}
+
+header h1 {
+  color: #323031;
+  border-radius: 35%;
+  margin: 0 10vw;
+}
+
+header p {
+  color: #323031;
+  font-weight: bold;
+  border-radius: 35%;
+  margin: 0 10vw;
+}
+
+/* Social Media Icons */
+
+header ul {
+  list-style-type: none;
+  width: 30vw;
+  padding: 0 5vw 0 60vw;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr)
+
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li img {
+  max-width: 30px;
+  margin: 0;
+}
+
+
+/* Second picture scroll */
+
+#picture {
+  height: 110vh;
+  background: url("../img/second_image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+p {
+  line-height: 2em;
 }

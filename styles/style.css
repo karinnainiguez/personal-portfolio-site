@@ -1,4 +1,4 @@
-/* THIS IS FOR THE WHOLE BODY */
+/* THIS IS FOR THE WHOLE PAGE */
 
 body {
   background-color: #C1BDB3;
@@ -8,7 +8,7 @@ body {
 /* THIS IS FOR THE TOP NAVIGATION BAR */
 
 nav {
-  background-color: #5F3B6B;
+  background-color: #5F5B6B;
   color: #C1BDB3;
   position: fixed;
   top: 0;
@@ -58,6 +58,7 @@ header {
 header img {
   border-radius: 50%;
   margin: 10vw;
+  width: 200px;
 
 }
 
@@ -76,7 +77,7 @@ header p {
 
 /* Social Media Icons */
 
-header ul {
+.social {
   list-style-type: none;
   width: 30vw;
   padding: 0 5vw 0 60vw;
@@ -85,11 +86,11 @@ header ul {
 
 }
 
-header ul li {
+.social li {
   display: inline-block;
 }
 
-header ul li img {
+.social li img {
   max-width: 30px;
   margin: 0;
 }
@@ -105,6 +106,31 @@ header ul li img {
   background-attachment: fixed;
 }
 
+
+/* Main Body Text */
+
+main>section {
+  padding: 5vw;
+}
+
 p {
   line-height: 2em;
+}
+
+/* This is for the Footer */
+
+
+footer {
+  background-color: #5F5B6B;
+  color: #C1BDB3;
+  bottom: 0;
+  position: fixed;
+  width: 100vw;
+  height: 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  margin: 1.5vw;
 }

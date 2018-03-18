@@ -2,6 +2,7 @@
 
 body {
   background-color: #C1BDB3;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 
@@ -38,6 +39,26 @@ nav li:first-child {
 nav li a:hover {
   color: #5F3B6B;
   background-color: #C1BDB3;
+}
+
+/* Social Media Icons */
+
+.social {
+  list-style-type: none;
+  width: 30vw;
+  padding: 0 5vw 0 60vw;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr)
+
+}
+
+.social li {
+  display: inline-block;
+}
+
+.social li img {
+  max-width: 30px;
+  margin: 0;
 }
 
 

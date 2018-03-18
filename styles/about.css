@@ -1,0 +1,59 @@
+main {
+  margin: 10vh auto;
+}
+
+
+/* THIS IS FOR HEADER */
+
+header {
+  margin: 10vh;
+  text-align: center;
+}
+
+/* THIS IS FOR THE MAIN SECTION OF PAGE */
+
+main ul {
+  padding: 2vh 15vw;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+main li {
+  position: relative;
+  width: 400px;
+  height: 250px;
+  display: inline-block;
+  margin-bottom: 5vw;
+}
+
+
+main ul img {
+  border: solid #5F5B6B 5px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+
+main ul div {
+  position: absolute;
+  border: solid #5F5B6B 5px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s;
+  background-color: #5F5B6B;
+  color: white;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+main ul div:hover {
+  opacity: 1;
+}

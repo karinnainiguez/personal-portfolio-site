@@ -1,0 +1,35 @@
+
+
+main {
+  padding: 0 3vw 10vh;
+}
+
+header {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+main ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+main ul li {
+  width: 400px;
+  margin: 3vw;
+}
+
+main ul img {
+  float: left;
+  border-radius: 50%;
+  padding-right: 1vw;
+  width: 200px;
+}
+
+main ul a {
+  text-decoration: none;
+  color: inherit;
+}

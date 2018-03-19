@@ -1,11 +1,12 @@
 main {
-  margin: 10vh auto;
+  margin: 0;
+  margin-bottom: 10vh;
 }
 
 /* THIS IS FOR HEADER */
 
 header {
-  margin: 10vh;
+  margin: 10vh 10vw 0;
   text-align: center;
   font-size: 1.25em;
 }

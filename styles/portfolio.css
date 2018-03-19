@@ -1,8 +1,12 @@
 
+/* THIS IS FOR THE HEADER */
+
 header {
   text-align: center;
   margin-top: 10vh;
 }
+
+/* THIS IS FOR MAIN CONTENT */
 
 main {
   padding: 0 2vw 10vh;
@@ -15,10 +19,12 @@ main ul {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
+  padding: 0;
 }
 
 main ul li {
   width: 400px;
+  margin: 1vw;
 }
 
 main ul img {

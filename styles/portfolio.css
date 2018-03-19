@@ -1,13 +1,13 @@
 
-
-main {
-  padding: 0 3vw 10vh;
-}
-
 header {
   text-align: center;
   margin-top: 10vh;
 }
+
+main {
+  padding: 0 2vw 10vh;
+}
+
 
 main ul {
   list-style-type: none;
@@ -19,7 +19,6 @@ main ul {
 
 main ul li {
   width: 400px;
-  margin: 3vw;
 }
 
 main ul img {

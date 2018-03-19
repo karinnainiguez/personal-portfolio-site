@@ -44,7 +44,7 @@ main ul div {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s;
+  transition: 2s;
   background-color: #5F5B6B;
   color: white;
   text-align: center;
@@ -52,5 +52,5 @@ main ul div {
 }
 
 main ul div:hover {
-  opacity: 1;
+  opacity: .85;
 }
